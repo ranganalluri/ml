@@ -1,5 +1,5 @@
 import pyspark.sql.dataframe
-from databricks.feature_store import FeatureStoreClient
+from databricks.feature_store.client import FeatureStoreClient
 
 from telco_churn.utils.get_spark import spark
 from telco_churn.utils.logger_utils import get_logger

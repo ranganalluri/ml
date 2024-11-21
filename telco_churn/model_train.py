@@ -9,7 +9,7 @@ import mlflow
 from mlflow.models import infer_signature
 
 import databricks
-from databricks.feature_store import FeatureStoreClient, FeatureLookup
+from databricks.feature_store.client import FeatureStoreClient, FeatureLookup
 
 from telco_churn.common import MLflowTrackingConfig, FeatureStoreTableConfig, LabelsTableConfig
 from telco_churn.model_train_pipeline import ModelTrainPipeline

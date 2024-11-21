@@ -3,7 +3,7 @@ from typing import Union, List
 import pyspark
 
 import databricks
-from databricks.feature_store import FeatureStoreClient
+from databricks.feature_store.client import FeatureStoreClient
 
 
 def create_and_write_feature_table(df: pyspark.sql.DataFrame,
